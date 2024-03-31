@@ -1,0 +1,35 @@
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #F5EEF7;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+#start-btn {
+  display: block; /* Ensures button is a block element */
+  margin: 0 auto; /* Center horizontally */
+  padding: 10px 20px;
+  background-color: #F5EEF7;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+#start-btn:hover {
+  background-color: #c3c1c1;
+  transform: scale(1.1); 
+}
